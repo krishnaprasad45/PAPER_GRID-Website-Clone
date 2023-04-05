@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.MainDiv {
+
+    width: 100%;
+    height: 2000px;
+    /* background-color: #ce1919; */
+}
+
+
+.HeaderSection {
+    padding-top: 1px;
+    top: 0px;
+    position: sticky;
+    width: 100%;
+    background-color: #121212;
+}
+
+.caps_text {
+
+    width: 100%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    background-color: #000000;
+    padding-top: 10px;
+
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+
+}
+
+.caps_text:hover {
+    cursor: pointer;
+    background: rgb(31, 30, 30);
+}
+
+.left_section {
+    margin-left: 80px;
+    margin-bottom: 15px;
+    width: 50%;
+    /* background-color: gray; */
+    column-gap: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.right_section {
+    /* background-color: yellow; */
+    width: 50%;
+    column-gap: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-bottom: 15px;
+
+}
+
+.nav_section {
+
+    margin-top: 35PX;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+.textContainer {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 50%;
+    /* background-color: gray; */
+    column-gap: 29px;
+    display: flex;
+    flex-direction: row;
+    vertical-align: bottom;
+
+}
+
+.textControls {
+    color: white;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.Icon_Container {
+    /* background-color: rgb(7, 168, 56); */
+    width: 50%;
+    margin-right: 60px;
+    column-gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+
+.textControls:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* ......................Section Grid......... */
+
+.GridMain {
+    margin-top: 40PX;
+    width: 100%;
+    /* background-color: blue; */
+    row-gap: 15px;
+    column-gap: 50PX;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin-left: 80PX;
+}
+
+.FounderSection {
+    margin-top: 70px;
+    /* background-color: blue; */
+    height: 580px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+}
+
+.FounderImage {
+    margin-left: 75px;
+    width: 393.28px;
+    height: 500.11px;
+    /* object-fit: contain; */
+
+}
+
+.A_note {
+    margin-top: 90px;
+    row-gap: 30px;
+    /* background-color: darkorange; */
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+}
+
+.head_text {
+
+    /* font-family: 'Anton', sans-serif; */
+    /* font-family: 'Roboto Condensed', sans-serif; */
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 23px;
+    font-weight: 550;
+
+}
+
+
+.Mid_text {
+    font-family: 'Ubuntu', sans-serif;
+    color: gray;
+    font-size: 18px;
+}
+
+.AboutUs_button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 10px 10px 25px;
+    align-items: center;
+    max-width: 90px;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+
+
+
+}
+
+.FooterSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    height: 277px;
+    width: 100%;
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+.copyright_section {
+    background-color: rgb(18, 18, 18);
+    padding-top: 70px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: start;
+    align-items: center;
+    color: white;
+
+}
+
+.copyright_section a {
+    color: white;
+
+
+}
+
+.copyright_section a:hover {
+    text-decoration: underline;
+}
+
+.textDecoration {
+
+    text-decoration: underline;
+
+
+    text-decoration-thickness: 1px;
+}
+
+.textDecoration:hover {
+    text-decoration-thickness: 2px;
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.imgInsta {
+    color: white;
+    transition: transform .1s;
+
+}
+
+.imgInsta:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+
+.logoPaperGrid {
+    height: 25px;
+    width: 120px;
+}
+
+
+.logoPaperGrid:hover {
+    cursor: pointer;
+
+}
+
+.Icon_Container img:hover {
+    cursor: pointer;
+
+}
+
+/* 
+ .anim:hover::before{
+   
+    content: "";
+
+ }
+
+ .anim:hover::after{
+   
+    content: -1"⟶";
+
+ } */
